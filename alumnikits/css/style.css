@@ -1,4 +1,3 @@
-
 /*** Spinner Start ***/
 #spinner {
     opacity: 0;
@@ -113,11 +112,6 @@ h6,
     border: 0;
     color: var(--bs-white);
 }
-
-/* .btn.btn-primary:hover {
-    background: var(--bs-secondary);
-    color: var(--bs-primary);
-} */
 
 .btn-border-radius {
     border-radius: 25% 10%;
@@ -701,7 +695,6 @@ h6,
     }
 }
 
-/* Add counter animation with JavaScript */
 .counter {
     visibility: hidden;
 }
@@ -931,7 +924,6 @@ h6 {
 /*** Footer End ***/
 
 /* Members */
-/* Faculty section styling to match with the AI & ML logo */
 .team-section {
     padding: 80px 0;
     background-color: #f9f9f9;
@@ -950,7 +942,7 @@ h6 {
   }
   
   .section-title h2 {
-    color: #702963; /* Purple from logo */
+    color: #702963; 
     font-size: 32px;
     font-weight: 700;
     margin-bottom: 15px;
@@ -961,11 +953,10 @@ h6 {
   .title-underline {
     height: 3px;
     width: 80px;
-    background: linear-gradient(to right, #7b1fa2, #d4af37); /* Purple to Gold gradient */
+    background: linear-gradient(to right, #7b1fa2, #d4af37); 
     margin: 0 auto;
   }
   
-  /* Department Head styling */
   .head-container {
     display: flex;
     justify-content: center;
@@ -1021,7 +1012,7 @@ h6 {
     border-radius: 50%;
     margin: 25px auto 15px;
     overflow: hidden;
-    border: 6px solid #d4af37; /* Gold color from logo */
+    border: 6px solid #d4af37; 
     background: #fff;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
   }
@@ -1038,7 +1029,6 @@ h6 {
     transform: scale(1.1);
   }
   
-  /* Member info styling */
   .member-info {
     padding: 10px 20px 25px;
     flex: 1;
@@ -1077,12 +1067,10 @@ h6 {
     margin-top: 5px;
   }
   
-  /* Hidden faculty styling */
   .hidden-faculty {
     display: none;
   }
   
-  /* Show More button styling */
   .show-more-container {
     display: flex;
     justify-content: center;
@@ -2008,7 +1996,6 @@ h6 {
     }
   }
   
-  /* New Animation for Timeline Items */
   .timeline-item.animated .timeline-card {
     animation: fadeInScale 0.6s forwards;
   }
@@ -2097,7 +2084,6 @@ h6 {
   }
 
 /* Members hero section */
-/* Faculty Hero Banner Styles */
 .faculty-hero-banner {
   position: relative;
   height: 81vh;
@@ -2130,7 +2116,6 @@ h6 {
   opacity: 0.5;
 }
 
-/* Gear Elements */
 .faculty-gear {
   position: absolute;
   background-size: contain;
@@ -2156,7 +2141,6 @@ h6 {
   animation: faculty-rotate 25s linear infinite reverse;
 }
 
-/* Laurel Elements */
 .faculty-laurel {
   position: absolute;
   background-size: contain;
@@ -2404,33 +2388,6 @@ h6 {
 
 /* Contact Page Specific Styles */
 
-/* Custom Colors Based on Logo */
-/* :root {
-  --burgundy: #6B132A;
-  --gold: #D4AF37;
-  --light-gold: #F0E6C0;
-  --dark-gray: #333333;
-  --light-gray: #F8F9FA;
-} */
-
-/* Text Colors */
-/* .text-burgundy {
-  color: var(--burgundy) !important;
-}
-
-.text-gold {
-  color: var(--gold) !important;
-} */
-
-/* Background Colors */
-/* .bg-burgundy {
-  background-color: var(--burgundy) !important;
-}
-
-.bg-gold {
-  background-color: var(--gold) !important;
-} */
-
 /* Button Styles */
 .btn-burgundy {
   background-color: var(--burgundy);
@@ -2478,7 +2435,6 @@ h6 {
   background-color: var(--gold) !important;
 }
 
-/* Contact Form Container */
 .contact-form-container {
   background-color: #ffffff;
   border-radius: 10px;
@@ -2519,7 +2475,6 @@ iframe {
   box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
 }
 
-/* Alumni CTA Section */
 .alumni-cta-content {
   padding: 20px;
 }
@@ -2603,4 +2558,5 @@ iframe {
       display: inline-block;
       text-align: left;
   }
+
 }
