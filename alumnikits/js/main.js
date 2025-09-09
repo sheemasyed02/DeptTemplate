@@ -31,7 +31,6 @@
 
 
     // Testimonial carousel
-
     $(".testimonial-carousel").owlCarousel({
         autoplay: true,
         smartSpeed: 1500,
@@ -152,7 +151,6 @@ document.addEventListener('DOMContentLoaded', function() {
           showMoreBtn.querySelector('i').classList.add('fa-chevron-down');
         }
         
-        // Smooth scroll to newly displayed content
         if (moreFaculty.style.display === 'grid') {
           setTimeout(() => {
             window.scrollBy({
@@ -164,7 +162,6 @@ document.addEventListener('DOMContentLoaded', function() {
       });
     }
     
-    // Optional: Add animation when scrolling
     function revealOnScroll() {
       const faculty = document.querySelectorAll('.faculty-member');
       
@@ -173,7 +170,7 @@ document.addEventListener('DOMContentLoaded', function() {
           setTimeout(() => {
             member.style.opacity = '1';
             member.style.transform = 'translateY(0)';
-          }, index * 100); // Staggered animation
+          }, index * 100); 
         }
       });
     }
@@ -188,7 +185,7 @@ document.addEventListener('DOMContentLoaded', function() {
       );
     }
     
-    // Initialize faculty with hidden state and prepare for animation
+    // Initialize faculty with hidden state 
     const allFaculty = document.querySelectorAll('.faculty-member');
     allFaculty.forEach(member => {
       member.style.opacity = '0';
@@ -205,8 +202,6 @@ document.addEventListener('DOMContentLoaded', function() {
 document.addEventListener('DOMContentLoaded', function() {
   new WOW().init();
   
-  // Network lines connecting animation
-  // This creates a more dynamic network effect by occasionally connecting
   // particles with lines to simulate a network graph
   function animateNetwork() {
       const particles = document.querySelectorAll('.particle');
@@ -255,7 +250,6 @@ document.addEventListener('DOMContentLoaded', function() {
   // Call once to initialize
   animateNetwork();
   
-  // Optional: Add parallax effect on scroll
   window.addEventListener('scroll', function() {
       const scrollY = window.scrollY;
       
@@ -772,4 +766,5 @@ document.addEventListener('DOMContentLoaded', function() {
   
   // Start automatic node creation
   setTimeout(createRandomNode, 1000);
+
 });
