@@ -30,7 +30,7 @@
     });
 
 
-    // Testimonial carousel
+    // Testimonial
     $(".testimonial-carousel").owlCarousel({
         autoplay: true,
         smartSpeed: 1500,
@@ -768,3 +768,4 @@ document.addEventListener('DOMContentLoaded', function() {
   setTimeout(createRandomNode, 1000);
 
 });
+
